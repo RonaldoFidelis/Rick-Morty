@@ -34,11 +34,9 @@ function App() {
   console.log(data)
 
   return (
-    <div className='m-0 p-0'>
+    <div>
       <Form search={search} />
-      <div className='flex flex-col'>
-        <Cards data={data}/>
-      </div>
+      <Cards data={data}/>
     </div>
   )
 }
