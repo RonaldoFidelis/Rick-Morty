@@ -1,8 +1,35 @@
-# React + Vite
+<h1 align=center> API Rick & Morty </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<br>
+
+> Testar o Api: <a href="https://rick-morty-iota-neon.vercel.app/" target="_blank" >Link</a>
+
+## Objetivo
+
+- Reforça conceitos de componentização, reutilização de componentes e requisições com React.Js
+
+## Futuro
+
+- Trabalha mais um pouco no layout.
+
+## 🚀 Tecnologias usadas:
+
+* **[ Vite ](https://vitejs.dev/)**
+* **[ React.JS ](https://react.dev/)**
+* **[ Node.js ](https://nodejs.org/en)**
+* **[ Taildwindcss ](https://tailwindcss.com/)**
+* **[ Postcss ](#)**
+* **[ Vercel ](https://vercel.com/)**
+
+## 📝 Maiores aprendizados
+
+* Componentização, reutilização de componentes e requisições http.
+
+## Desenvolvido por Ronaldo Fidelis
+-  Contatos:
+    - <a href="mailto:ronaldofidelis.ti@gmail.com" target="_blank">E-mail</a>
+    - <a href="https://github.com/RonaldoFidelis" target="_blank">GitHub</a>
