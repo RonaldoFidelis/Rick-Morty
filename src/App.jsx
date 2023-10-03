@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Form from './components/Form';
+import Cards from './components/Cards';
 
 function App() {
   const [url, setUrl] = useState('https://rickandmortyapi.com/api/character')
@@ -21,7 +22,7 @@ function App() {
 
         const data = await response.json();
         setData(data.results);
-        
+
       } catch (error) {
         console.error('Erro ao buscar dados:', error);
       }
@@ -30,18 +31,13 @@ function App() {
     dataApi(url);
   }, [url]);
 
-
+  console.log(data)
 
   return (
-    <div>
+    <div className='m-0 p-0'>
       <Form search={search} />
-      <div>
-        {data.map((personagem) => (
-          <div key={personagem.id}>
-            <img src={personagem.image} alt="" />
-            <h1>Name:{personagem.name}</h1>
-          </div>
-        ))}
+      <div className='flex flex-col'>
+        <Cards data={data}/>
       </div>
     </div>
   )

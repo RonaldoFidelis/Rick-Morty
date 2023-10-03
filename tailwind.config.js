@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        'form':'#FFFFFF',
+        'fontForm':'#202329',
         'font':'#FFFFFF',
         'button':'#00E572',
         'input':'#403F3F'
