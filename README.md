@@ -6,7 +6,7 @@
 
 <br>
 
-> Testar o Api: <a href="https://rick-morty-iota-neon.vercel.app/" target="_blank" >Link</a>
+> Testar aplicação: <a href="https://rick-morty-iota-neon.vercel.app/" target="_blank" >Link</a>
 
 ## Objetivo
 
